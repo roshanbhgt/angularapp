@@ -39,6 +39,7 @@
 	width: 100%;
 	text-align: center;
 	float: left;
+	border:none;
 }
 .block-contact .contactus .form-control .btn{
 	color:white;
