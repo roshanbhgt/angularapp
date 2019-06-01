@@ -1,0 +1,32 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;	
+	color:grey;
+	font-family: "Times New Roman", Times, serif;
+}
+.container{
+	width:1000px;
+}
+.container h1{
+	font-size:25px;
+	text-align:center;
+	color:#dd0031;
+	text-decoration:underline;
+}
+.container .logo{
+	width:150px;
+	height:150px;
+	float:left;
+}
+.container .title{
+	font-size: 20px;
+	float: left;
+	margin: 32px 0 auto;
+	width: 80%;
+}
+.container .description{
+	margin: 5px 0;
+	float: left;
+	font-size: 15px;
+	width: 80%;
+}
