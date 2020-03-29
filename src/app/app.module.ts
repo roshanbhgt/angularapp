@@ -10,7 +10,6 @@ import { AboutComponent } from './component/about/about.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { BlogComponent } from './component/blog/blog.component';
 import { ContactService } from './Services/contact.service';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -21,9 +20,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     BrowserModule,
+	BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
-    ModalModule.forRoot(),
-    NgbModule.forRoot()
+    ModalModule.forRoot()
   ],
   providers: [
       ContactService
